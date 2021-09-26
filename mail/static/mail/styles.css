@@ -1,0 +1,53 @@
+textarea {
+  min-height: 400px;
+}
+
+#subject-email,
+#recipient-email,
+#content-email,
+#timestamp-email {
+  align-items: center;
+}
+
+img {
+  padding-left: 5px;
+  align-items: center;
+}
+
+div > .card-body {
+  border-radius: 25px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-body:hover {
+  box-shadow: 10px 5px 5px red;
+}
+
+#archive-icon:hover {
+  box-shadow: 5px 3px 5px blue;
+}
+
+.gradient-background {
+  background: linear-gradient(95deg, #21f1b2, #e6cdce, #aa5b6e, #3d0ab0);
+  background-size: 240% 240%;
+  animation: gradient-animation 13s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.button {
+  font-size: 20px;
+}
